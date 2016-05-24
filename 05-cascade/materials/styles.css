@@ -3,8 +3,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 10;
+	padding: 10;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -15,6 +15,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1.2;
+	background-color: #ccffe6;
+	font-family: serif;
+color: #0066ff;
 }
 ol { 
 	padding-left: 1.4em;
@@ -28,6 +31,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
+h1 {
+font-family: sans-serif;
+color: #ffa64d;
+font-size: 2em;
+text-indent: 0;
+font-weight: bold;
+}
+h2 {
+color: #e67300;
+font-size: 2em;
+
+}
+.main h2 {
+border-bottom: white 1px solid;
+padding-left: 25px;
+width: 60%;
+display: inline-block;
+}
+.main img {
+	float: left;
+	display: inline-block;
+}
+h2 > p {
+padding-left: 25px;
+}
+#abstract {
+	color: blue;
+	font-family: sans-serif;
+
+}
+.main {
+	padding-left: 25px;
+}
+
+
 /* end reset browser styles */
 
 /* basic layout -- 2 columns */
@@ -35,9 +73,21 @@ table {
 	float: left;
 	width: 580px;
 }
+.bullet {
+	float: left;
+	width: 580px;
+}
 .sidebar {
 	margin-left: 600px;
 	padding: 15px;
 	background: #E9F5FE;
+	font-size: 0.5em;
+	width: 15%;
+	color: #cc3399;
 }
-
+.sidebar h2 {
+	color: #0066ff;
+}
+img {
+	display: block;
+}
